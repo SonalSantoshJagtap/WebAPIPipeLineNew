@@ -25,6 +25,12 @@ pipeline {
             }
 
         }
+        stage('Check SQL Connection') {
+    steps {
+        bat 'whoami'
+        bat 'sqlcmd -S ABHIJEET-PC\\SQLEXPRESS -E -Q "SELECT @@VERSION"'
+    }
+}
         stage("Publish") {
             steps {
                 script {

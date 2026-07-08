@@ -151,7 +151,6 @@ D:\Sonal docs\CIIT Training\Web_API\WebAPIToPracticeLinq\WebAPIToPracticeLinq\ob
 D:\Sonal docs\CIIT Training\Web_API\WebAPIToPracticeLinq\WebAPIToPracticeLinq\obj\Debug\net10.0\staticwebassets.development.json
 D:\Sonal docs\CIIT Training\Web_API\WebAPIToPracticeLinq\WebAPIToPracticeLinq\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 D:\Sonal docs\CIIT Training\Web_API\WebAPIToPracticeLinq\WebAPIToPracticeLinq\obj\Debug\net10.0\swae.build.ex.cache
-D:\Sonal docs\CIIT Training\Web_API\WebAPIToPracticeLinq\WebAPIToPracticeLinq\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 D:\Sonal docs\CIIT Training\Web_API\WebAPIToPracticeLinq\WebAPIToPracticeLinq\obj\Debug\net10.0\WebAPITo.5C726436.Up2Date
 D:\Sonal docs\CIIT Training\Web_API\WebAPIToPracticeLinq\WebAPIToPracticeLinq\obj\Debug\net10.0\WebAPIToPracticeLinq.dll
 D:\Sonal docs\CIIT Training\Web_API\WebAPIToPracticeLinq\WebAPIToPracticeLinq\obj\Debug\net10.0\refint\WebAPIToPracticeLinq.dll
