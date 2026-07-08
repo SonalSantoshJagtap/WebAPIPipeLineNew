@@ -1,0 +1,6 @@
+@WebAPIToPracticeLinq_HostAddress = http://localhost:5232
+
+GET {{WebAPIToPracticeLinq_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
