@@ -21,5 +21,8 @@
     <PackageReference Include="Microsoft.OpenApi" Version="2.7.5" />
     <PackageReference Include="Scalar.AspNetCore" Version="2.16.10" />
   </ItemGroup>
+	<ItemGroup>
+		<InternalsVisibleTo Include="UnitTest1"/>
+	</ItemGroup>
 
 </Project>
