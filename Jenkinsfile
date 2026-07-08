@@ -19,6 +19,12 @@ pipeline {
                 bat "dotnet build --configuration Release"
             }
         }
+        stage('SQL Test') {
+    steps {
+        bat 'whoami'
+        bat 'sqlcmd -S ABHIJEET-PC\\SQLEXPRESS -E -Q "SELECT DB_NAME()"'
+    }
+}
         stage('Check SQL Connection') {
     steps {
         bat 'whoami'
