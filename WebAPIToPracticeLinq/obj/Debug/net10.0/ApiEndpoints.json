@@ -81,8 +81,28 @@
   },
   {
     "ContainingType": "WebAPIToPracticeLinq.Controllers.EmployeeController",
-    "Method": "GetAllEmployeeById",
-    "RelativePath": "api/GetAllEmployeeById/{id}",
+    "Method": "GetAllEmployees",
+    "RelativePath": "api/GetAllEmployees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[WebAPIToPracticeLinq.Models.Employee, WebAPIToPracticeLinq, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIToPracticeLinq.Controllers.EmployeeController",
+    "Method": "GetEmployeeById",
+    "RelativePath": "api/GetEmployeeById/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -96,26 +116,6 @@
     "ReturnTypes": [
       {
         "Type": "WebAPIToPracticeLinq.Models.Employee",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "WebAPIToPracticeLinq.Controllers.EmployeeController",
-    "Method": "GetAllEmployees",
-    "RelativePath": "api/GetAllEmployees",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.List\u00601[[WebAPIToPracticeLinq.Models.Employee, WebAPIToPracticeLinq, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

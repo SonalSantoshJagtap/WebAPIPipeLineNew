@@ -51,7 +51,7 @@
         }
       }
     },
-    "/api/GetAllEmployeeById/{id}": {
+    "/api/GetEmployeeById/{id}": {
       "get": {
         "tags": [
           "Employee"

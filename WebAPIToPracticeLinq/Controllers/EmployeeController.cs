@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WebAPIToPracticeLinq.Models;
+using Microsoft.Net;
 
 namespace WebAPIToPracticeLinq.Controllers
 {
@@ -16,10 +17,19 @@ namespace WebAPIToPracticeLinq.Controllers
         }
         [Route("api/GetAllEmployees")]
         [HttpGet]
-        public List<Employee> GetAllEmployees()
+        public ActionResult<List<Employee>> GetAllEmployees()
         {
-            List<Employee> emp = db.Employees.ToList();
-            return emp;
+            //List<Employee> emp = db.Employees.ToList();
+            //return emp;
+
+            try
+            {
+                return Ok(db.Employees.ToList());
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.ToString());
+            }
         }
 
         [Route("api/GetEmployeeById/{id}")]
