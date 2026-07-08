@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebAPIToPracticeLinq")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d0db9d86c9e524f905fa83248e44fde55162940")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac486e11ac8ba4f68057840a119e322a2dce36da")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebAPIToPracticeLinq")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebAPIToPracticeLinq")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

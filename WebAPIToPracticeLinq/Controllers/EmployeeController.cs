@@ -22,9 +22,9 @@ namespace WebAPIToPracticeLinq.Controllers
             return emp;
         }
 
-        [Route("api/GetAllEmployeeById/{id}")]
+        [Route("api/GetEmployeeById/{id}")]
         [HttpGet]
-        public Employee GetAllEmployeeById(int id)
+        public Employee GetEmployeeById(int id)
         {
            var emp = db.Employees.Find(id);
             return emp;
@@ -34,7 +34,7 @@ namespace WebAPIToPracticeLinq.Controllers
         [HttpGet]
         public List<Employee> GetEmpWithHighestSal()
         {
-            List<Employee> lst= db.Employees.Where(e=> e.Salary >80000).ToList();
+            List<Employee> lst= db.Employees.Where(e=> e.Salary== null || e.Salary > 80000).ToList();
             return lst;
         }
 
@@ -54,13 +54,10 @@ namespace WebAPIToPracticeLinq.Controllers
         [HttpGet]
         public Employee FindByEmail()
         {
-            var employee = db.Employees.FirstOrDefault(e => e.EmailAddress== "sham@gamil.com");
+            var employee = db.Employees.FirstOrDefault(e => e.EmailAddress== "sham@gamil.com" || e.EmailAddress == null);
             //var employee = db.Employees.First(e => e.EmailAddress == "sham@gamil.com");// Will retrive first matching record if no exists then thow error
             //var employee = db.Employees.SingleOrDefault(e => e.EmailAddress == "sham@gamil.com");// will throw error because it contains more than one matching record
             //var employee = db.Employees.Single(e => e.EmailAddress == "ram@gamil.com"); //Exactly one record must exist if not matched the will throw error.
-
-
-
             return employee;
         }
 

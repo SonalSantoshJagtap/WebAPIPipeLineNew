@@ -32,11 +32,11 @@ namespace UnitTestProject
         [InlineData(22,204)]
         [InlineData(3,200)]
         [InlineData(40,204)]
-        public async Task GetAllEmployeeByIdTest(int id,int expected)
+        public async Task GetEmployeeByIdTest(int id,int expected)
         {
             var factory = new WebApplicationFactory<Program>();
             var client = factory.CreateClient();
-            var response = await client.GetAsync($"api/GetAllEmployeeById/{id}");
+            var response = await client.GetAsync($"api/GetEmployeeById/{id}");
             Assert.Equal(expected, (int)response.StatusCode);
             
         }
