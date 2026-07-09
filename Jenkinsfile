@@ -47,8 +47,8 @@ pipeline {
         }
         stage("Deployment") {
             steps {
-                bat "del /q /s C:\\inetpub\\wwwroot\\WebAPIPipeline\\*"
-                bat "xcopy /E /Y /I publish\\* C:\\inetpub\\wwwroot\\WebAPIPipeline\\"
+                bat "del /q /s C:\\inetpub\\wwwroot\\TestProjectWebAPI\\*"
+                bat "xcopy /E /Y /I publish\\* C:\\inetpub\\wwwroot\\TestProjectWebAPI\\"
             }
         }
     }
