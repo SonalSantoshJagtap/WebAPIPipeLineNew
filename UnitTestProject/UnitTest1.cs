@@ -31,9 +31,9 @@ namespace UnitTestProject
 
         //With mutiple data
         [Theory]
-        [InlineData(5,200)]
+        [InlineData(7,200)]
         [InlineData(22,204)]
-        [InlineData(3,200)]
+        [InlineData(8,200)]
         [InlineData(40,204)]
         public async Task GetEmployeeByIdTest(int id,int expected)
         {
