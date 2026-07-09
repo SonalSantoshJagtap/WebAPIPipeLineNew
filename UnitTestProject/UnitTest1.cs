@@ -31,7 +31,7 @@ namespace UnitTestProject
 
         //With mutiple data
         [Theory]
-        [InlineData(4,200)]
+        [InlineData(5,200)]
         [InlineData(22,204)]
         [InlineData(3,200)]
         [InlineData(40,204)]

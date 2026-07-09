@@ -159,3 +159,4 @@ D:\Sonal docs\CIIT Training\Web_API\WebAPIToPracticeLinq\WebAPIToPracticeLinq\ob
 D:\Sonal docs\CIIT Training\Web_API\WebAPIToPracticeLinq\WebAPIToPracticeLinq\obj\Debug\net10.0\ref\WebAPIToPracticeLinq.dll
 D:\Sonal docs\CIIT Training\Web_API\WebAPIToPracticeLinq\WebAPIToPracticeLinq\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\Sonal docs\CIIT Training\Web_API\WebAPIToPracticeLinq\WebAPIToPracticeLinq\obj\Debug\net10.0\WebAPIToPracticeLinq.sourcelink.json
+D:\Sonal docs\CIIT Training\Web_API\WebAPIToPracticeLinq\WebAPIToPracticeLinq\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
