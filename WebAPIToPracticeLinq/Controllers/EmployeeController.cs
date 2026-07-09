@@ -19,17 +19,17 @@ namespace WebAPIToPracticeLinq.Controllers
         [HttpGet]
         public ActionResult<List<Employee>> GetAllEmployees()
         {
-            //List<Employee> emp = db.Employees.ToList();
-            //return emp;
+            List<Employee> emp = db.Employees.ToList();
+            return emp;
 
-            try
-            {
-                return Ok(db.Employees.ToList());
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, ex.ToString());
-            }
+            //try
+            //{
+            //    return Ok(db.Employees.ToList());
+            //}
+            //catch (Exception ex)
+            //{
+            //    return StatusCode(500, ex.ToString());
+            //}
         }
 
         [Route("api/GetEmployeeById/{id}")]

@@ -65,8 +65,7 @@ namespace UnitTestProject
 
         }
 
-        
-
+       
          [Fact]
         public async Task CalculateTotalSal()
         {
