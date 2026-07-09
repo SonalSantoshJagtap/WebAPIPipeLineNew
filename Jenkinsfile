@@ -19,24 +19,24 @@ pipeline {
                 bat "dotnet build --configuration Release"
             }
         }
-        stage('SQL Test') {
-    steps {
-        bat 'whoami'
-        bat 'sqlcmd -S ABHIJEET-PC\\SQLEXPRESS -E -Q "SELECT DB_NAME()"'
-    }
-}
+//         stage('SQL Test') {
+//     steps {
+//         bat 'whoami'
+//         bat 'sqlcmd -S ABHIJEET-PC\\SQLEXPRESS -E -Q "SELECT DB_NAME()"'
+//     }
+// }
 //         stage('Check SQL Connection') {
 //     steps {
 //         bat 'whoami'
 //         bat 'sqlcmd -S ABHIJEET-PC\\SQLEXPRESS -E -Q "SELECT @@VERSION"'
 //     }
 // }
-//         stage("Test") {
-//             steps {
-//                 bat "dotnet test --no-restore --configuration Release"
-//             }
+        stage("Test") {
+            steps {
+                bat "dotnet test --no-restore --configuration Release"
+            }
 
-//         }
+        }
         
         stage("Publish") {
             steps {
